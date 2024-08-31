@@ -1,0 +1,9 @@
+body {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+}

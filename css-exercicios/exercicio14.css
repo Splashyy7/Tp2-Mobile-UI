@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (hover: none) {
+    .btn {
+        background-color: lightgray;
+        color: black;
+    }
+
+    #btn1 {
+        background-color: red;
+    }
+
+    #btn2 {
+        background-color: blue;
+    }
+}
+
+@media (hover: hover) {
+    .btn {
+        background-color: lightblue;
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: darkblue;
+    }
+
+    #btn1:hover {
+        background-color: green;
+    }
+
+    #btn2:hover {
+        background-color: purple;
+    }
+}

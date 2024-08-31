@@ -1,0 +1,3 @@
+@import url('/css-exercicio10/style1.css') screen and (min-width: 1024px) and (orientation: landscape);
+@import url('/css-exercicio10/style2.css') screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait);
+@import url('/css-exercicio10/style3.css') screen and (max-width: 767px) and (min-height: 600px);
